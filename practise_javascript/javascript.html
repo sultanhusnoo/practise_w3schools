@@ -7,10 +7,31 @@
     </head>
 
     <body id = 'myBody'>
-        <p class = 'bodyText'>learning JS things</p>
+        <h3><p id = 'bodyText' name = 'mt'>Learning JS things</p></h3>
 
-        <p class = 'bodyText'>Learning to use JS to make better front end stuff 
+        <p></p>
+
+        <p id = 'bodyText2' name = 'mt' 
+                onmouseover = darkMode() 
+                onmouseout  = lightMode() > 
+            Text that turns to Dark Mode with onmouseover</p>
+
+        <p></p>
+
+        <p id = 'bodyText1' name = 'mt'>Learning to use JS to make better front end stuff 
             work in my django projects</p>
+
+        <p></p>
+
+        <p id = 'mt1' name = 'mt'> Multiple text 1 </p>
+        <p id = 'mt2' name = 'mt'> Multiple text 2 </p>
+        <p id = 'mt3' name = 'mt'> Multiple text 3 </p>
+        <p id = 'mt4' name = 'mt'> Multiple text 4 </p>
+        <p id = 'mt5' name = 'mt'> Multiple text 5 </p>
+
+        <p></p>
+
+        <button type = 'button' onclick= turnBlue()> Blue Background </button>
 
         <p></p>
 
@@ -19,7 +40,7 @@
 
         <p></p>
 
-        <button type = 'button' onclick=bulbON()> ON  </button>
+        <button type = 'button' onclick=bulbON() turnBlue()> ON  </button>
         <img id = 'myBulb' src = 'pic_bulboff.gif'>
         <button type = 'button' onclick= bulbOFF()> OFF </button>
 
